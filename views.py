@@ -50,6 +50,7 @@ def func3(request):
         d = Sneha(name=a,address=b,empID=c)
         d.save()
         print(a,b,c)
+        # print(a)
         
     else:
         return render(request,"page2.html",context={})
